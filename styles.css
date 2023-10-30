@@ -1,0 +1,43 @@
+:root {
+    --color-60: #EDF2F4;
+    --color-30: #17183B;
+    --color-10:#8FB7A1;
+  }
+  
+.fondo {
+    background-color: var(--color-60);
+    height: 100vh;
+    margin: 0;
+}
+
+.navegacion-barra {
+    background-color: var(--color-30);
+    height: 100px;
+}
+
+.body {
+    margin: 0,0,0,0;
+}
+
+nav h1 {
+    color: var(--color-60);
+}
+
+.intro {
+    background-color: #17183B;
+    height: 50px;
+}
+
+.row-intro {
+    margin-top: 30px;
+
+}
+
+.row-intro p {
+    color: #EDF2F4;
+}
+
+.pig-image {
+    border-style: ridge;
+
+}

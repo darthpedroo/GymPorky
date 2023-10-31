@@ -4,10 +4,14 @@
     --color-10:#8FB7A1;
     --color-text:#130e01;
   }
-  
+
+  html, body {
+    margin: 0;
+    height: 100%;
+}
+
 .fondo {
-    background-color: var(--color-60);
-    height: 100vh;
+    background-color: var(--color-30);
     margin: 0;
 }
 

@@ -5,13 +5,12 @@
     --color-text:#130e01;
   }
 
-  html, body {
-    margin: 0;
+
+.container-fluid {
     height: 100%;
 }
 
 .fondo {
-    background-color: var(--color-30);
     margin: 0;
 }
 
@@ -24,72 +23,16 @@
     margin: 0,0,0,0;
 }
 
+nav a {
+    text-decoration: none;
+}
+
 nav h1 {
     color: var(--color-60);
+    text-align: center;
 }
 
-.intro {
-    height: 50px;
-}
-
-.row-intro p {
-    color: #17183B;
+.texto-inico {
     font-size: 30px;
-}
-
-.row-proyectos {
-    height: 100px;
-}
-
-.titulo-proyectos {
-    color:var(color-text);
-    font-size: 70px;
-    
-}
-
-.titulo {
-    text-align: left;
-    
-}
-
-.pig-image {
-    border-style: ridge;
-    border-color: var(--color-30);
-    border-radius: 50%;
-    width: 300px;
-    height: 300px; 
-}
-
-.proyecto-contenedor {
-    border-radius: 20px; 
-    border: 5px solid var(--color-30);
-    height: 400px;
-    transition: background-color 0.5s ease-in-out; 
-    cursor: pointer;
-}
-
-.proyecto-contenedor h2, .proyecto-contenedor h3 {
-    color: var(--color-text);
-    text-align: left;
-}
-
-.proyecto-contenedor:hover {
-    background-color: var(--color-10);
-    
-}
-
-.proyecto-imagen {
-    width: 250px;
-    height: 250px;
-}
-
-.custom-column {
-    margin-right: 15px; /* Adjust the value according to your preference */
-    margin-bottom: 15px; /* Adjust the value according to your preference */
-}
-
-
-/* Override the margin for the last column in the row */
-.row .custom-column:last-child {
-    margin-right: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }

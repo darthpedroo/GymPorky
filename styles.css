@@ -14,6 +14,8 @@
 
 .fondo {
     margin: 0;
+    background-color: var(--color-60);
+
 }
 
 .navegacion-barra {
@@ -74,3 +76,16 @@ nav h1 {
     background-color: var(--color-10);
 }
 
+.articulo{
+    background-color: var(--color-30);
+    
+}
+
+.articulo h1, .articulo h2, .articulo p {
+    color: var(--color-60);
+}
+
+
+.articulo-titulo {
+    text-align: center;
+}

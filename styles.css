@@ -16,7 +16,10 @@
 
 .navegacion-barra {
     background-color: var(--color-30);
-    height: 100px;
+}
+
+.navegacion-barra a {
+    color: var(--color-60);
 }
 
 .body {
@@ -36,3 +39,36 @@ nav h1 {
     font-size: 30px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.titulos-banner {
+    background-color: var(--color-30);
+    height: 75px;
+    border-radius: 10px;
+}
+
+.titulo-seccion {
+    font-size: 50px;
+    color: var(--color-60);
+    text-align: center;
+
+}
+
+.rutina-contenedor {
+    background-color: var(--color-30);
+    height: 400px;
+}
+
+.rutina-foto {
+    width: 450px;
+    height: 300px;
+}
+
+.rutina-titulo {
+    color: var(--color-60);
+    text-align: center;
+}
+
+.rutina-contenedor:hover {
+    background-color: var(--color-10);
+}
+

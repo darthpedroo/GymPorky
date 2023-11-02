@@ -13,44 +13,170 @@
     
 <body>
     <div class="container-fluid fondo">
-            <header > <!--Le pusimos row al header pq sino te mete un padding de 12 px que no se puede sacar -->
-
-                <nav class="row navegacion-barra navbar">
-
-                    <div class="col-lg-3">
-                        <a href="#"> <h1>Gym Porky </h1> </a>
-                        
+            <header> <!--Le pusimos row al header pq sino te mete un padding de 12 px que no se puede sacar -->
+                
+                <!--Checkear si esta bien esta navbar troll :v -->
+                <nav class="navbar navbar-expand-lg navegacion-barra fixed-top">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Gym Porky</a>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://es.wikipedia.org/wiki/Bal%C3%B3n_de_Oro" target="_blank">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Articulos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Free 💉</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-
-                    <div class="col-lg-3">
-                        <a href="https://es.wikipedia.org/wiki/Bal%C3%B3n_de_Oro" target="_blank"> <h1>Inicio </h1> </a>                    </div>
-
-                    <div class="col-lg-3">
-                        <a href="#"> <h1>Rutinas </h1> </a>                    </div>
-
-                    <div class="col-lg-3" >
-                        <a  href="#"> <h1>Free 💉 </h1> </a>                    </div>
-
                 </nav>
+                
 
             </header>
 
-            <div class="row mt-5">
+            <main>
+                <section>
+                    <div class="row mt-5">
 
-                <div class="col-lg-6">
-                    <p class="texto-inico">Bienvenido al ginasio de porky y el paisano, aca vas a encontar las mejores rutinas y los mejores precios</p>
+                        <div class="col-lg-6">
+                            <p class="texto-inico">Bienvenido al ginasio de porky y el paisano, aca vas a encontar las mejores rutinas y los mejores precios</p>
+                        </div>
+                        <div class="col-lg-4"> <!--Aca checkear si ponemos un flex, si ponemos text-center o que hacemos-->
+                        </div>
+                        <div class="col-lg-2">
+                            <img src="/assets/arnold.gif" alt="Arnold dando un besito" class="rounded">
+                        </div>
     
-                </div>
+                    </div>
 
-                <div class="col-lg-3">
-                    <p>Piza carrea</p>
-                </div>
+                </section>
+
+                <section>
+                    
+                    <div class="row mt-5">
+                        <div class="col titulos-banner mx-5"> <!--Fijarse como agregar más margin que 5, HABRIA QUE SOBREESCRIBIR AL BOOTSTRAP-->
+                            <h1 class="titulo-seccion" >Rutinas</h1>
+                        </div>
+                    </div>
+
+                    <div class="row mt-5">
+
+                        <div class="col-lg-3 rutina-contenedor m-5" onclick="location.href='#';"> <!--Porque no usar <a> tags en bootstrap y usar on click: https://stackoverflow.com/questions/44596108/making-whole-col-a-link-->
+
+                                <h1 class="rutina-titulo">
+                                    Push Pull Legs
+                                </h1>
+                                
+                                <img class="rutina-foto" src="/assets/ppl.webp" alt="Split push pull legs">
+                        
+                            </div>
+
+                            <div class="col-lg-4 rutina-contenedor m-5" onclick="location.href='#';"> <!--Arreglar como centrar las imagenes pq las ajusto x pixeles y como esta tiene más columnas y e sun poco más grande se ve mal-->
+                                <h1 class="rutina-titulo">
+                                    8 Hour Arm Workout
+                                </h1>
     
-                <div class="col-lg-3 text-center">
-                    <img src="/assets/arnold.gif" alt="Arnold dando un besito ">
-                </div>
+                                <img class="rutina-foto" src="/assets/RichPianaWorkout.jpg" alt="Rich Piana con un texto que dice 8 hour arm workout"> 
+                                
+                            </div>
 
-            </div>
+                            <div class="col-lg-3 rutina-contenedor m-5" onclick="location.href='#';">
+                                <h1 class="rutina-titulo">
+                                    Full Body 
+                                </h1>
+                                <img class="rutina-foto" src="/assets/david-goggins-log-lift_s.webp" alt="David goggings con un tronco">
+                            </div>
+                    </div>
+
+                </section>
+
+                <section>
+                    
+                    <div class="row mt-5">
+                        <div class="col titulos-banner mx-5"> <!--Fijarse como agregar más margin que 5, HABRIA QUE SOBREESCRIBIR AL BOOTSTRAP-->
+                            <h1 class="titulo-seccion"> Galería de maquinolas </h1>
+                        </div>
+                    </div>
+
+                    <div class="row mt-5">
+                        <div class="col-lg-12 mx-5">
+                            <p>
+                                Aca va un carousel qe ni idea como poner a ja j aja 
+                            </p>
+
+                        </div>
+                        
+
+                    </div>
+ 
+                </section>
+
+                <section>
+                    
+                    <div class="row mt-5">
+                        <div class="col titulos-banner mx-5"> 
+                            <h1 class="titulo-seccion"> Sobre Nosotros </h1>
+                        </div>
+                        
+                    </div>
+
+                    <div class="row mt-5">
+                        <div class="col-lg-12  text-center">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima reiciendis, in itaque ullam cumque alias assumenda quis sit adipisci accusamus cum perspiciatis eveniet minus quisquam expedita molestias mollitia totam? Aspernatur itaque excepturi sint est deleniti facilis vel aut assumenda adipisci! Aut nostrum sequi ex, ab consequatur esse, magni itaque beatae asperiores quos totam porro a! Excepturi pariatur corrupti ipsam magnam nesciunt eius eveniet a consequatur, accusamus, nobis, repellendus saepe iste impedit distinctio iusto cupiditate itaque modi natus eum? Maxime ullam quisquam similique veniam delectus unde eaque ut et quo suscipit repudiandae consequuntur, corrupti perspiciatis beatae numquam incidunt, iste sed sapiente.
+                            </p>
+
+                        </div>
+                        
+                    </div>
+ 
+                </section>
+
+                <section>
+                    
+                    <div class="row mt-5">
+                        <div class="col titulos-banner mx-5"> <!--Fijarse como agregar más margin que 5, HABRIA QUE SOBREESCRIBIR AL BOOTSTRAP-->
+                            <h1 class="titulo-seccion"> Contactanos </h1>
+                        </div>
+                    </div>
+
+                    <div class="row mt-5">
+
+                        <div class="col-lg-5">
+                        </div>
+                        <div class="col-lg-2 text-center">
+                            <form>
+                                <div class="form-group">
+                                  <label for="exampleInputEmail1">Email para que te respondamos</label>
+                                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Tu Mensaje</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                  </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                              </form>
+                        </div>
+
+                        <div class="col-lg-5">
+                        </div>
+
+
+                        
+
+                    </div>
+ 
+                </section>
+                
+                
+
+            </main>
+            
             
 
     </div>

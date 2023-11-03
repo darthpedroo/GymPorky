@@ -13,10 +13,9 @@
     
 <body>
     <div class="container-fluid fondo">
-            <header> <!--Le pusimos row al header pq sino te mete un padding de 12 px que no se puede sacar -->
                 
                 <!--Checkear si esta bien esta navbar troll :v -->
-                <nav class="navbar navbar-expand-lg navegacion-barra fixed-top">
+                <nav class="navbar navbar-expand-lg navegacion-barra fixed-top row">
                     <div class="container-fluid">
                         <a class="navbar-brand" href="#">Gym Porky</a>
                         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -39,21 +38,17 @@
             </header>
 
             <main>
-                <section>
-                    <div class="row mt-5">
 
-                        <div class="col-lg-6">
+                    <section class="row mt-5">
+
+                        <div class=" col-sm-12 col-md-6  col-lg-8">
                             <p class="texto-inico">Bienvenido al ginasio de porky y el paisano, aca vas a encontar las mejores rutinas y los mejores precios</p>
                         </div>
-                        <div class="col-lg-4"> <!--Aca checkear si ponemos un flex, si ponemos text-center o que hacemos-->
-                        </div>
-                        <div class="col-lg-2">
+                        
+                        <div class="col-sm-12 col-md-6 col-lg-2  text-center">
                             <img src="/assets/arnold.gif" alt="Arnold dando un besito" class="rounded">
                         </div>
-    
-                    </div>
-
-                </section>
+                    </section>
 
                 <section>
                     
@@ -65,30 +60,30 @@
 
                     <div class="row mt-5">
 
-                        <div class="col-lg-3 rutina-contenedor m-5 text-center" onclick="location.href='#';"> <!--Porque no usar <a> tags en bootstrap y usar on click: https://stackoverflow.com/questions/44596108/making-whole-col-a-link-->
+                        <div class="col-md-4 col-lg-3 rutina-contenedor mx-5 text-center" onclick="location.href='#';"> <!--Porque no usar <a> tags en bootstrap y usar on click: https://stackoverflow.com/questions/44596108/making-whole-col-a-link-->
 
                                 <h1 class="rutina-titulo">
                                     Push Pull Legs
                                 </h1>
                                 
-                                <img class="rutina-foto" src="/assets/ppl.webp" alt="Split push pull legs">
+                                <img class="w-100 h-75" src="/assets/ppl.webp" alt="Split push pull legs">
                         
                             </div>
 
-                            <div class="col-lg-4 rutina-contenedor m-5 text-center" onclick="location.href='#';"> <!--Arreglar como centrar las imagenes pq las ajusto x pixeles y como esta tiene más columnas y e sun poco más grande se ve mal-->
+                            <div class=" col-md-4 col-lg-3 rutina-contenedor mr-5 text-center" onclick="location.href='#';"> <!--Arreglar como centrar las imagenes pq las ajusto x pixeles y como esta tiene más columnas y e sun poco más grande se ve mal-->
                                 <h1 class="rutina-titulo">
                                     8 Hour Arm Workout
                                 </h1>
     
-                                <img class="rutina-foto" src="/assets/RichPianaWorkout.jpg" alt="Rich Piana con un texto que dice 8 hour arm workout"> 
+                                <img class="w-100 h-75" src="/assets/RichPianaWorkout.jpg" alt="Rich Piana con un texto que dice 8 hour arm workout"> 
                                 
                             </div>
 
-                            <div class="col-lg-3 rutina-contenedor m-5 text-center" onclick="location.href='#';">
+                            <div class="col-sm-12 col-md-12 col-lg-3 rutina-contenedor  text-center" onclick="location.href='#';">
                                 <h1 class="rutina-titulo">
                                     Full Body 
                                 </h1>
-                                <img class="rutina-foto" src="/assets/david-goggins-log-lift_s.webp" alt="David goggings con un tronco">
+                                <img class="w-100 h-75" src="/assets/david-goggins-log-lift_s.webp" alt="David goggings con un tronco">
                             </div>
                     </div>
 

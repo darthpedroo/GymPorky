@@ -1,9 +1,14 @@
+/*https://coolors.co/9fb1bc-1f5673-4aad52 paleta nashe */
 :root {
-    --color-60: #EDF2F4;
-    --color-30: #17183B;
-    --color-10:#8FB7A1;
-    --color-text:#130e01;
+    
+    --color-60: #9FB1BC;
+    --color-30: #092f44;
+    --color-10:#4caf50;
+    --color-text:#080B0C;
+    --color-text-light: #DAE3E7;
+    --color-footer: #c0c0c0
   }
+
 
 
 .container-fluid {
@@ -42,18 +47,23 @@ nav h1 {
 .texto-inico {
     font-size: 20px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--color-text);
+
 }
 
 .titulos-banner {
     background-color: var(--color-30);
     min-height: 75px;
     border-radius: 10px;
+    color: var(--color-text-light);
+
 }
 
 .titulo-seccion {
     font-size: 50px;
-    color: var(--color-60);
+    color: var(--color-text-light);
     text-align: center;
+    
 
 }
 
@@ -66,6 +76,8 @@ nav h1 {
 .rutina-titulo {
     color: var(--color-60);
     text-align: center;
+    color: var(--color-text-light);
+
 }
 
 .rutina-contenedor:hover {
@@ -84,6 +96,8 @@ nav h1 {
 
 .articulo-titulo {
     text-align: center;
+    color: var(--color-text-light);
+
 }
 
 .margen-izquierda {
@@ -93,4 +107,12 @@ nav h1 {
 
 .margen-derecha {
     margin-right: 200px;
+}
+
+.penne {
+    background-color: pink;
+}
+
+footer {
+    background-color: var(--color-footer);
 }

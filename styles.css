@@ -46,7 +46,7 @@ nav h1 {
 
 .titulos-banner {
     background-color: var(--color-30);
-    height: 75px;
+    min-height: 75px;
     border-radius: 10px;
 }
 
@@ -84,4 +84,13 @@ nav h1 {
 
 .articulo-titulo {
     text-align: center;
+}
+
+.margen-izquierda {
+    margin-left: 40px;
+}
+
+
+.margen-derecha {
+    margin-right: 200px;
 }

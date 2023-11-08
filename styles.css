@@ -6,7 +6,7 @@
     --color-10:#4caf50;
     --color-text:#080B0C;
     --color-text-light: #DAE3E7;
-    --color-footer: #c0c0c0
+    --color-footer: #092f44
   }
 
 
@@ -81,12 +81,21 @@ nav h1 {
 }
 
 .rutina-contenedor:hover {
-    background-color: var(--color-10);
+    cursor: pointer;
+
 }
 
 .articulo{
     background-color: var(--color-30);
-    
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.articulo:hover {
+    background-color:rgb(15, 107, 156);
+    transition: 1s;
+    cursor: pointer;
+
 }
 
 .articulo h1, .articulo h2, .articulo p {
@@ -130,4 +139,8 @@ footer {
 .row-contenedor p {
     font-weight: 600;
     font-size: larger;
+}
+
+.porky-color-claro {
+    color: var(--color-text-light);
 }

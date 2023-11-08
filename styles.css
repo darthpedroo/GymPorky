@@ -82,7 +82,15 @@ nav h1 {
 
 .rutina-contenedor:hover {
     cursor: pointer;
+}
 
+.rutina-contenedor img  {
+    filter: grayscale(100%);
+    transition: filter 0.3s;
+}
+
+.rutina-contenedor:hover img {
+    filter: none;
 }
 
 .articulo{

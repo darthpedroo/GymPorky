@@ -80,8 +80,13 @@ nav h1 {
 
 }
 
-.rutina-contenedor:hover {
-    background-color: var(--color-10);
+.rutina-contenedor img  {
+    filter: grayscale(100%);
+    transition: filter 0.3s;
+}
+
+.rutina-contenedor:hover img {
+    filter: none;
 }
 
 .articulo{

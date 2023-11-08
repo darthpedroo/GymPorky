@@ -118,3 +118,16 @@ footer {
     width: 100%;
 }
 
+.row-contenedor h1{
+    font-weight: bold;
+    
+}
+
+.row-contenedor h1{
+    font-weight: bold;
+}
+
+.row-contenedor p {
+    font-weight: 600;
+    font-size: larger;
+}

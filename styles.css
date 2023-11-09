@@ -21,6 +21,12 @@
     margin: 0;
     background-color: var(--color-60);
 
+} 
+
+.fondo-lista li {
+    background-color: #bad2e0;
+    border-color: var(--color-30);
+
 }
 
 .navegacion-barra {
@@ -164,4 +170,8 @@ footer {
 .carousel-control-next,
 .carousel-control-prev /*, .carousel-indicators */ {
     filter: invert(100%);
+}
+
+.rutina-imagen {
+    max-width: 600px;
 }

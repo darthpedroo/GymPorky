@@ -152,3 +152,16 @@ footer {
 .porky-color-claro {
     color: var(--color-text-light);
 }
+
+.item-link-nav a{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+/*Sobreescribir colores de las flechitas carousel*/
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}

@@ -75,9 +75,8 @@ nav h1 {
 
 .rutina-contenedor {
     background-color: var(--color-30);
-    height: 400px;
     border-radius: 5px;
-
+    
 }
 
 
@@ -176,4 +175,8 @@ footer {
 
 .rutina-imagen {
     max-width: 600px;
+}
+
+.mt-6 {
+    margin-top: 5rem !important; 
 }

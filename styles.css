@@ -50,8 +50,9 @@ nav h1 {
     text-align: center;
 }
 
-.texto-inico {
+.texto-parrafo {
     font-size: 20px;
+    text-align: justify;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: var(--color-text);
 
@@ -69,9 +70,9 @@ nav h1 {
     font-size: 50px;
     color: var(--color-text-light);
     text-align: center;
-    
-
 }
+
+
 
 .rutina-contenedor {
     background-color: var(--color-30);
@@ -180,3 +181,99 @@ footer {
 .mt-6 {
     margin-top: 5rem !important; 
 }
+
+.contenedor-articulo p {
+    text-align: justify;
+    
+}
+
+.contenedor-articulo h1, .contenedor-articulo h2 {
+    text-wrap: balance;
+    text-align: center;
+}
+
+
+.contenedor-rutina p {
+    text-align: justify;
+
+}
+
+.contenedor-objetivos h1 {
+    text-align: center;
+    text-wrap: balance;
+
+}
+
+@media only screen and (max-width: 320px) {
+    .texto-parrafo {
+      font-size: 14px;
+    }
+
+    .titulo-seccion {
+        font-size: 30px;
+    }
+
+    .contenedor-articulo h1, .contenedor-articulo h2 {
+        font-size: 12px;
+    }
+
+    .contenedor-rutina h2 {
+        font-size: 16px;
+        text-wrap: balance;
+    }
+
+  }
+
+  @media only screen and (min-width: 321px) and (max-width: 600px) {
+    .texto-parrafo {
+      font-size: 14px;
+    }
+
+    .titulo-seccion {
+        font-size: 30px;
+    }
+
+    .contenedor-articulo h1, .contenedor-articulo h2 {
+        font-size: 25px;
+    }
+
+    .contenedor-rutina p {
+        font-size: 18px;
+    }
+
+    
+  }
+  
+  
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .texto-parrafo {
+      font-size: 18px;
+    }
+    .titulo-seccion {
+        font-size: 40px;
+    }
+    .contenedor-articulo h1, .contenedor-articulo h2 {
+        font-size: 30px;
+    }
+
+    .contenedor-rutina p {
+        font-size: 25px;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 1025px) {
+    .texto-parrafo {
+      font-size: 20px;
+    }
+    .titulo-seccion {
+        font-size: 50px;
+    }
+    .contenedor-articulo h1, .contenedor-articulo h2 {
+        font-size: 50px;
+    }
+
+    .contenedor-rutina p {
+        font-size: 25px;
+    }
+  }

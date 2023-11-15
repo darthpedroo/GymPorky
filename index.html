@@ -60,8 +60,8 @@
 
                 <section class="row mt-5">
 
-                    <div class=" col-sm-12 col-md-6 col-lg-8 mt-5 px-5">
-                        <p class="texto-inico">"Porky Gimnasio es tu destino para la salud y la forma física. Ofrecemos instalaciones modernas, entrenadores expertos y clases variadas para todas las edades y niveles. Descubre un espacio donde el bienestar y la motivación se unen. ¡Únete a nuestra comunidad activa y transforma tu vida hoy!"</p>
+                    <div class=" col-sm-12 col-md-6 col-lg-8 mt-5 px-md-5">
+                        <p class="texto-parrafo">"Porky Gimnasio es tu destino para la salud y la forma física. Ofrecemos instalaciones modernas, entrenadores expertos y clases variadas para todas las edades y niveles. Descubre un espacio donde el bienestar y la motivación se unen. ¡Únete a nuestra comunidad activa y transforma tu vida hoy!"</p>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-2 text-center mt-5">
                         <img src="assets/arnold.gif" alt="Arnold dando un besito" class="rounded img-fluid">
@@ -71,7 +71,7 @@
                 <section>
                     
                     <div class="row mt-5 px-5">
-                        <div class="col-12 titulos-banner mx-auto"> <!--Fijarse como agregar más margin que 5, HABRIA QUE SOBREESCRIBIR AL BOOTSTRAP-->
+                        <div class="col-12 titulos-banner mx-auto d-flex align-items-center justify-content-center"> <!--Fijarse como agregar más margin que 5, HABRIA QUE SOBREESCRIBIR AL BOOTSTRAP-->
                             <h1 class="titulo-seccion" >Rutinas Extremas</h1>
                         </div>
                     </div>
@@ -80,34 +80,31 @@
 
                         <!--aguante el mx-auto perrrooo-->
 
-                        <div class="col-10 col-md-4 col-lg-3 rutina-contenedor text-center my-5 mx-md-auto mx-sm-auto  mx-auto" onclick="location.href='rutinaFullbody.html';"> <!--Porque no usar <a> tags en bootstrap y usar on click: https://stackoverflow.com/questions/44596108/making-whole-col-a-link-->
+                        <div class="pb-3 col-10 col-md-4 col-lg-3 rutina-contenedor text-center my-5 mx-md-auto mx-sm-auto  mx-auto" onclick="location.href='rutinaFullbody.html';"> <!--Porque no usar <a> tags en bootstrap y usar on click: https://stackoverflow.com/questions/44596108/making-whole-col-a-link-->
                             <h1 class="rutina-titulo">
                                 Full Body
                             </h1>
-                            <img class="w-100 h-75 img-fluid" src="assets/inicio/davidgoggings.webp" alt="Split push pull legs"> 
+                            <img class=" img-fluid" src="assets/inicio/david.jpg" alt="Split push pull legs"> 
                             
                             <!--        <img class="w-100 h-75" src="/assets/ppl.webp" alt="Split push pull legs">  -->                            
                     
                         </div>
-                        <div class="col-10 col-md-4 col-lg-3 rutina-contenedor text-center my-5 mx-md-auto mx-sm-auto  mx-auto" onclick="location.href='rutina8hourArm.html';"> <!--Arreglar como centrar las imagenes pq las ajusto x pixeles y como esta tiene más columnas y e sun poco más grande se ve mal-->
+                        <div class="pb-3 col-10 col-md-4 col-lg-3 rutina-contenedor text-center my-5 mx-md-auto mx-sm-auto  mx-auto" onclick="location.href='rutina8hourArm.html';"> <!--Arreglar como centrar las imagenes pq las ajusto x pixeles y como esta tiene más columnas y e sun poco más grande se ve mal-->
                             <h1 class="rutina-titulo">
                                 Arm Workout
                             </h1>
 
-                            <img class="w-100 h-75 img-fluid" src="assets/inicio/richpiana.jpg" alt="Split push pull legs">
+                            <img class="img-fluid" src="assets/inicio/richpiana.jpg" alt="Split push pull legs">
    
-                                
-                                <!--        <img class="w-100 h-75" src="/assets/ppl.webp" alt="Split push pull legs">  --> 
-                                
+                                                                
                         </div>
 
-                        <div class="col-10 col-md-11 col-lg-3 rutina-contenedor text-center my-5 mx-md-5 mx-sm-auto mx-lg-auto mx-auto" onclick="location.href='rutinaLegDay.html';">                                <h1 class="rutina-titulo">
+                        <div class="pb-3 col-10 col-md-11 col-lg-3 rutina-contenedor text-center my-5 mx-md-5 mx-sm-auto mx-lg-auto mx-auto" onclick="location.href='rutinaLegDay.html';">                                <h1 class="rutina-titulo">
                                 Leg Day
                             </h1>
                                 
-                            <img class="w-100 h-75 img-fluid" src="assets/inicio/legday.jpg" alt="Split push pull legs">
+                            <img class="img-fluid" src="assets/inicio/legday.jpg" alt="Split push pull legs">
 
-                               <!--        <img class="w-100 h-75" src="/assets/ppl.webp" alt="Split push pull legs">  -->
                         </div>
 
                     </div>
@@ -117,29 +114,29 @@
                 <section>
                     
                     <div class="row mt-5 px-5">
-                        <div class="col-12 titulos-banner mx-auto " > <!--Fijarse como agregar más margin que 5, HABRIA QUE SOBREESCRIBIR AL BOOTSTRAP-->
+                        <div class="col-12 titulos-banner mx-auto d-flex align-items-center justify-content-center" > <!--Fijarse como agregar más margin que 5, HABRIA QUE SOBREESCRIBIR AL BOOTSTRAP-->
                             <h1 class="titulo-seccion"> Antes y Después </h1>
                         </div>
                     </div>
 
                     <div class="row mt-5">
 
-                        <div class="col-4 mx-auto">
+                        <div class="col-7  mx-auto">
                             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner">
-                                  <div class="carousel-item active">
-                                    <img src="assets/carousel/antes/gokugordo.jpg" class="d-block w-100 img-fluid"  alt="...">
+                                    <div class="carousel-item active">
+                                      <img src="assets/carousel/antes/gokugordo.jpg" class="d-block w-100 img-fluid" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="assets/carousel/despues/gokufuerte.jpg" class="d-block w-100 img-fluid" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="assets/carousel/antes/shrekgordo.jpg" class="d-block w-100 img-fluid" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="assets/carousel/despues/shrekfuerte.jpg" class="d-block w-100 img-fluid" alt="...">
+                                    </div>
                                   </div>
-                                  <div class="carousel-item">
-                                    <img src="assets/carousel/despues/gokufuerte.jpg" class="d-block w-100 img-fluid"  alt="...">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="assets/carousel/antes/shrekgordo.jpg" class="d-block w-100 img-fluid" alt="...">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="assets/carousel/despues/shrekfuerte.jpg" class="d-block w-100 img-fluid" alt="...">
-                                  </div>
-                                </div>
                                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                   <span class="visually-hidden">Previous</span>
@@ -160,15 +157,15 @@
                     <!--ARECGLAR ESTO DESPUES PARA QUE SEA RESPONSIVO : V-->
                     
                     <div class="row mt-5 px-5">
-                        <div class="col-12 titulos-banner mx-auto"> 
+                        <div class="col-12 titulos-banner mx-auto d-flex align-items-center justify-content-center "> 
                             <h1 class="titulo-seccion"> Sobre Nosotros </h1>
                         </div>
                         
                     </div>
 
                     <div class="row mt-5 px-5">
-                        <div class="col-lg-12  text-center">
-                            <p>
+                        <div class="col-lg-12 text-center">
+                            <p class="texto-parrafo">
                                 Situado en el corazón de nuestra comunidad, Porky Gimnasio se erige como un faro de bienestar y superación personal. Nos enorgullece ofrecer más que un espacio de entrenamiento; somos una familia comprometida con tu salud y forma física. En nuestras modernas instalaciones, encontrarás equipos de última generación respaldados por entrenadores apasionados y clases diseñadas para adaptarse a todos los niveles y edades. En Porky Gimnasio, no solo buscamos esculpir cuerpos, sino también inspirar un cambio positivo en tu vida. Únete a nuestra activa comunidad, donde la motivación y el bienestar convergen, y descubre el camino hacia una versión más fuerte y saludable de ti mismo.
                             </p>
 
@@ -181,7 +178,7 @@
                 <section>
                     
                     <div class="row mt-5 px-5">
-                        <div class="col-12 titulos-banner mx-auto"> <!--Fijarse como agregar más margin que 5, HABRIA QUE SOBREESCRIBIR AL BOOTSTRAP-->
+                        <div class="col-12 titulos-banner mx-auto d-flex align-items-center justify-content-center"> <!--Fijarse como agregar más margin que 5, HABRIA QUE SOBREESCRIBIR AL BOOTSTRAP-->
                             <h1 class="titulo-seccion"> Contactanos </h1>
                         </div>
                     </div>

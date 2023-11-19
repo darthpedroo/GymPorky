@@ -67,8 +67,10 @@ nav h1 {
 }
 
 .titulo-seccion {
-    font-size: 50px;
-    color: var(--color-text-light);
+    font-weight: 700; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    letter-spacing: 2px; 
+    line-height: 1.2; 
     text-align: center;
 }
 
@@ -82,10 +84,11 @@ nav h1 {
 
 
 .rutina-titulo {
-    color: var(--color-60);
-    text-align: center;
     color: var(--color-text-light);
-
+    text-align: center;
+    font-family: 'Open Sans', Arial, sans-serif; /* Another safe font stack for smaller text */
+    font-weight: 500; 
+    letter-spacing: 1px; 
 }
 
 .rutina-contenedor:hover {
@@ -107,6 +110,13 @@ nav h1 {
     padding: 20px;
 }
 
+
+
+.articulo p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
 .articulo:hover {
     background-color:rgb(15, 107, 156);
     transition: 1s;
@@ -116,12 +126,18 @@ nav h1 {
 
 .articulo h1, .articulo h2, .articulo p {
     color: var(--color-60);
+
 }
 
 
 .articulo-titulo {
     text-align: center;
     color: var(--color-text-light);
+    font-weight: 700; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    letter-spacing: 2px; 
+    line-height: 1.2; 
+    text-align: center;
 
 }
 
@@ -182,14 +198,34 @@ footer {
     margin-top: 5rem !important; 
 }
 
+
+
 .contenedor-articulo p {
     text-align: justify;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     
 }
 
-.contenedor-articulo h1, .contenedor-articulo h2 {
+.contenedor-articulo h1  {
     text-wrap: balance;
     text-align: center;
+    font-weight: bolder; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    letter-spacing: 2px; 
+    line-height: 1.2; 
+    text-align: center;
+    
+}
+
+.contenedor-articulo h2  {
+    text-wrap: balance;
+    text-align: center;
+    font-weight: 600; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    letter-spacing: 2px; 
+    line-height: 1.2; 
+    text-align: center;
+    
 }
 
 

@@ -58,6 +58,13 @@ nav h1 {
 
 }
 
+.texto-titulo {
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--color-text);
+
+}
+
 .titulos-banner {
     background-color: var(--color-30);
     min-height: 75px;
@@ -164,10 +171,6 @@ footer {
     
 }
 
-.row-contenedor h1{
-    font-weight: bold;
-}
-
 .row-contenedor p {
     font-weight: 600;
     font-size: larger;
@@ -241,6 +244,9 @@ footer {
 }
 
 @media only screen and (max-width: 320px) {
+    .texto-titulo {
+        font-size: 20px;
+    }
     .texto-parrafo {
       font-size: 14px;
     }
@@ -261,6 +267,10 @@ footer {
   }
 
   @media only screen and (min-width: 321px) and (max-width: 600px) {
+
+    .texto-titulo {
+        font-size: 30px;
+    }
     .texto-parrafo {
       font-size: 14px;
     }
@@ -282,6 +292,10 @@ footer {
   
   
   @media only screen and (min-width: 601px) and (max-width: 1024px) {
+
+    .texto-titulo {
+        font-size: 40px;
+    }
     .texto-parrafo {
       font-size: 18px;
     }
@@ -299,6 +313,11 @@ footer {
   
   
   @media only screen and (min-width: 1025px) {
+
+    .texto-titulo {
+        font-size: 50px;
+    }
+    
     .texto-parrafo {
       font-size: 20px;
     }

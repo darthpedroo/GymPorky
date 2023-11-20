@@ -1,4 +1,5 @@
 /*https://coolors.co/9fb1bc-1f5673-4aad52 paleta nashe */
+
 :root {
     
     --color-60: #e9e9e9;
@@ -131,7 +132,7 @@ nav h1 {
 
 }
 
-.articulo h1, .articulo h2, .articulo p {
+.articulo h2, .articulo h3, .articulo p {
     color: var(--color-60);
 
 }
